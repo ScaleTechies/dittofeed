@@ -72,7 +72,7 @@ services:
       - postgres
     environment:
       - DB=postgresql
-      - DB_PORT=${DATABASE_PORT:-5432}
+      - DB_PORT=${DATABASE_PORT:-54032}
       - POSTGRES_USER=${DATABASE_USER:-postgres}
       - POSTGRES_PWD=${DATABASE_PASSWORD:-password}
       - POSTGRES_SEEDS=${DATABASE_HOST:-postgres}
